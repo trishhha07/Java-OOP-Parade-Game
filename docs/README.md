@@ -20,17 +20,14 @@ Parade Game is a strategic card game for 2–6 players where the goal is to mini
 2. Compile:
 ```bash
 javac -d tempclasses -cp src src/app/Main.java
+```
 
 ## Project Structure
-- `src/app`: Main entry point  
-- `src/game/core`: Card, Player, Deck, Parade, AI & Human player classes  
-- `src/game/gameplay`: GameManager, GameController, scoring & winner logic  
-- `src/game/renderer`: Console output and game animations  
-- `src/game/utils`: Helper methods, constants, ASCII art  
-
-## Demo / Screenshot
-![Parade Game Screenshot](link-to-screenshot-or-gif)  
-*(Replace with actual screenshot or GIF of gameplay)*
+src/app: Main entry point
+src/game/core: Card, Player, Deck, Parade, AI & Human player classes
+src/game/gameplay: GameManager, GameController, scoring & winner logic
+src/game/renderer: Console output and game animations
+src/game/utils: Helper methods, constants, ASCII art
 
 ## Team & Acknowledgments
 **Contributors:**  
@@ -39,3 +36,4 @@ javac -d tempclasses -cp src src/app/Main.java
 - Kiara Kuldeep Desai  
 - Loh Kai Xing  
 - Trisha Pratik Chaudhry
+
