@@ -23,17 +23,19 @@ javac -d tempclasses -cp src src/app/Main.java
 ```
 
 ## Project Structure
-src/app: Main entry point
-src/game/core: Card, Player, Deck, Parade, AI & Human player classes
-src/game/gameplay: GameManager, GameController, scoring & winner logic
-src/game/renderer: Console output and game animations
-src/game/utils: Helper methods, constants, ASCII art
+- src/app: Main entry point
+- src/game/core: Card, Player, Deck, Parade, AI & Human player classes
+- src/game/gameplay: GameManager, GameController, scoring & winner logic
+- src/game/renderer: Console output and game animations
+- src/game/utils: Helper methods, constants, ASCII art
 
 ## Team & Acknowledgments
 **Contributors:**  
-- Aung Ye Thant Hein  
+- Aung Ye Thant Hein
+- Trisha Pratik Chaudhry
 - Choon Zhen Yang  
 - Kiara Kuldeep Desai  
 - Loh Kai Xing  
-- Trisha Pratik Chaudhry
+
+
 
